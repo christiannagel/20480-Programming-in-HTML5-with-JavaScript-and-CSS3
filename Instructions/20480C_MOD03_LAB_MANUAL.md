@@ -29,9 +29,9 @@ First, you will use the HTML5 DOM to obtain a reference to the page’s schedule
 
 #### Task 1: Review the existing code for the Schedule page
 
-1.	Start Microsoft Visual Studio 2017, and then from the **Allfiles\Mod03\Labfiles\Starter\Exercise 1** folder, open the **ContosoConf.sln** solution.
+1.	Start Microsoft Visual Studio 2019, and then from the **Allfiles\Mod03\Labfiles\Starter\Exercise 1** folder, open the **ContosoConf.sln** solution.
 >**Note**: If **Security Warning for ContosoConf** dialog box appears, clear **Ask me for every project in this solution** checkbox and then click **OK**. 
-2.	In the **ContosoConf** project, review the content of the **schedule.htm** page. Notice that the **schedule** page section, which will be used to display the list of sessions, currently contains an empty list  named **schedule**:
+2.	In the **ContosoConf** project, review the content of the **schedule.html** page. Notice that the **schedule** page section, which will be used to display the list of sessions, currently contains an empty list  named **schedule**:
     ```html
         <section class="page-section schedule>
             <div class="container">
@@ -42,7 +42,7 @@ First, you will use the HTML5 DOM to obtain a reference to the page’s schedule
     ```
 3.	Notice that the **schedule.htm** page references the JavaScript code in the **scripts\pages\schedule.js** script file:
     ```html
-        <script src="/scripts/pages/schedule.js" type="text/javascript"></script>
+        <script src="/scripts/pages/schedule.js"></script>
     ```
 4.	Review the **scripts\pages\schedule.js** script file. This file contains the details of each session held in JSON format. The data is held in the **schedule** array, and each object in the array has three properties that specify the session id, the session title, and the tracks to which the session belongs (a session may be part of more than one track):
     ```javascript
@@ -110,7 +110,7 @@ First, you will use the HTML5 DOM to obtain a reference to the page’s schedule
 
 #### Task 5: Run the web application and view the Schedule page
 
-Run the application and view the **schedule.htm** page to verify that the list of sessions is displayed.
+Run the application and view the **schedule.html** page to verify that the list of sessions is displayed.
 
 ![alt text](./Images/20480B_3_Schedule.png "The Schedule page with sessions displayed")
 
