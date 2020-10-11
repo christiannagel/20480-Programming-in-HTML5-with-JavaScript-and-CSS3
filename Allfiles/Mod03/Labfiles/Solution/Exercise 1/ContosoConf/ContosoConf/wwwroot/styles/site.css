@@ -1,6 +1,5 @@
-/* Styles used throughout the entire web site */
 
-html {
+ html {
     /* font-size 62.5% makes 1rem equal 10px for easy size calculations. */
     font-size: 62.5%;
     font-family: Calibri, Arial, sans-serif;
