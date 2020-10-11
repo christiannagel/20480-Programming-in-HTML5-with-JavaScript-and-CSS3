@@ -126,7 +126,7 @@ You will create a stylesheet in the ContosoConf project. Then you will add CSS r
 2.	To the **styles** folder, add a stylesheet, **site.css**.
 3. On the **Project** menu, click **Add New Item**.
 4. Select the **Style Sheet** template.
-5. On the **index.htm** and **about.htm** files, add a link to the **site.css** style sheet.
+5. On the **index.html** and **about.html** files, add a link to the **site.css** style sheet.
 6. Use a **&lt;link&gt;** element inside the page header; set the **href** property to **"styles/site.css"**, set the **rel** property to **"stylesheet"**, and then set the **type** property to **"text/css"**.
 
 #### Task 2: Add CSS rules to style the pages
@@ -145,10 +145,10 @@ You will create a stylesheet in the ContosoConf project. Then you will add CSS r
 - Set the **font-size** property to **4rem**, set the **letter-spacing** property to **-1px**, and then set the **margin** property to **1em 0 0,25em 0**.
 5.	To modify the HTML markup for the **Home** and **About** pages and wrap the **&lt;a&gt;** elements in the **&lt;nav&gt;** section in **&lt;div class="container"&gt;** element, enter the following code:
     ```html
-        <div class="container">
-            <a href="/index.htm">Home</a>
-            <a href="/about.htm">About</a>
-        </div>
+        <nav class="container">
+            <a href="/index.html">Home</a>
+            <a href="/about.html">About</a>
+        </nav>
     ```
 6.	To achieve the horizontally centered, fixed-width column effect for all sections marked with the container class, add a CSS rule to the **site.css** style sheet:
 - Set the **padding** property to **0.1rem**, set the **max-width** property to **94rem**, and then set the **margin** property to **0 auto**.
